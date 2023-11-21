@@ -58,15 +58,15 @@ nmap -A 200.200.200.129
 
 Сетевые службы, разрешенные на ВМ Metasploitable:
 
-1. 
-2. 
-3. 
+1. 21 порт FTP;
+2. 22 порт SSH;
+3. 80 порт http.
 
 Уязвимости, обнаруженные на ВМ Metasploitable:
 
-1. 
-2. 
-3. 
+1. [vsftpd 2.3.4](https://www.exploit-db.com/exploits/49757);
+2. [MySQL 5.0.x](https://www.exploit-db.com/exploits/29724);
+3. [Apache Tomcat 5.5.0](https://www.exploit-db.com/exploits/12343).
 
 ---
 
